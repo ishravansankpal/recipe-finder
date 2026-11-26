@@ -1,0 +1,35 @@
+/* Global styles: reset, colours and base typography */
+:root {
+  --cream: #fbf5e6;
+  --green: #2f5233;
+  --green-dark: #213a24;
+  --orange: #e8833a;
+  --text: #3a3a3a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--text);
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--green);
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
